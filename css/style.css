@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* utility class */
+
+.bg_orange{
+  background-color: #FF7A59;
+}
+
+.bg_pink{
+  background-color: #FFF2EE;
+}
+
+.bg_verdino{
+  background-color: #8EE3D9;
+}
+
+.bg_verdeacqua{
+  background-color: #01B1B1;
+}
+
+.bg_blue{
+  background-color: #2D3E50;
+}
+
+.bg_azzurrino{
+  background-color: #F5F8FA;
+}
+
+.brd_rd{
+  border-radius: 5px
+}
+
+.btn{
+  display: inline-block;
+  background-color: #FF7A59;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.wh{
+  width: 80%;
+  margin: auto;
+}
+
+.bg_white{
+  background-color: white;
+}
+
+.link{
+  color: #2D3E50;
+  text-transform: capitalize;
+}
+
+.float_left{
+  float: left;
+}
+
+.float_right{
+  float: right;
+}
+/* /utility class */
+ /* header */
+
+#site_header .container_nav_top{
+  background-color: #eaf7ffbd;
+  height: 50px;
+}
+
+#site_header .navbar_top div.float_left{
+  margin-top: 10px;
+}
+
+#site_header ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+#site_header ul li a{
+  text-decoration: none;
+}
+
+#login{
+  color: #FF7A59;
+  border: 1px solid #FF7A59;
+  padding: 10px;
+}
+
+.navbar_top::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.navbar_top ul li a img{
+  width: 50%;
+  vertical-align: middle;
+}
+
+.navbar_bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar_bottom{
+  padding: 20px 0;
+}
+
+.navbar_bottom ul li {
+  padding: 0px 10px;
+}
+
+#site_header div.container{
+  background-image: url('../img/jumbotron.png');
+  height: 700px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container .hero_text{
+  width: 40%;
+  margin-left: 10%;
+  color: #2D3E50;
+}
+
+.hero_text h1{
+  font-size: 70px;
+  padding-top: 10%;
+}
+
+.hero_text p {
+  margin: 20px 0;
+}
+
+.hero_text a.btn{
+  padding: 20px;
+}
+
+div.hero_text > p:nth-child(4){
+  font-size: 12px;
+}
