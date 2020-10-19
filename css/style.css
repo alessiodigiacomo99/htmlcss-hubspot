@@ -312,3 +312,47 @@ div.seconda_riga > div:nth-child(3) > img, div.seconda_riga > div:nth-child(4) >
 .seconda_riga{
   padding-bottom: 100px;
 }
+/* /community */
+/* sponsors */
+
+.sponsors .dati h2{
+  font-size: 50px;
+  color: #2D3E50;
+  padding-bottom: 20px;
+}
+
+.sponsors .dati{
+  width: 25%;
+  text-align: center;
+  margin: 40px;
+}
+
+.sponsor_list img{
+  width: 150px;
+  padding: 15px;
+  line-height: 89.85px;
+  vertical-align: middle;
+}
+
+.sponsor_list{
+  margin: 30px;
+}
+/* /sponsors */
+/* start */
+.start .start_today{
+  width: 40%;
+}
+
+.start h2{
+  font-size: 50px;
+  color: #2D3E50;
+}
+
+.start p{
+  padding: 40px 0;
+}
+
+.img_start img{
+  width: 50%;
+  float: right;
+}
