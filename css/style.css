@@ -5,20 +5,13 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  min-width: 1400px;
 }
 
 /* utility class */
 
 .bg_orange{
   background-color: #FF7A59;
-}
-
-.bg_pink{
-  background-color: #FFF2EE;
-}
-
-.bg_verdino{
-  background-color: #8EE3D9;
 }
 
 .bg_verdeacqua{
@@ -66,8 +59,32 @@ body{
 .float_right{
   float: right;
 }
+
+.Orange_Checkmark{
+  width: 15px;
+}
+
+.p_10{
+  padding: 10px;
+}
+
+.p_20{
+  padding: 20px;
+}
+
+.p_30{
+  padding: 30px;
+}
+
+.p_40{
+  padding: 40px;
+}
 /* /utility class */
  /* header */
+
+#site_header{
+  position: relative;
+}
 
 #site_header .container_nav_top{
   background-color: #eaf7ffbd;
@@ -91,7 +108,6 @@ body{
 #login{
   color: #FF7A59;
   border: 1px solid #FF7A59;
-  padding: 10px;
 }
 
 .navbar_top::after{
@@ -122,10 +138,12 @@ body{
 #site_header div.container{
   background-image: url('../img/jumbotron.png');
   height: 700px;
-  background-position: 100% 100%;
+  background-position: 100% 80%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   position: relative;
+  background-color: #FFF2EE;
+  min-width: 1100px;
 }
 
 .container .hero_text{
@@ -141,12 +159,92 @@ body{
 
 .hero_text p {
   margin: 20px 0;
-}
-
-.hero_text a.btn{
-  padding: 20px;
+  line-height: 30px;
 }
 
 div.hero_text > p:nth-child(4){
   font-size: 12px;
+}
+
+.bg_verdino{
+  background-color: #8EE3D9;
+  height: 100px;;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 5px solid #2D3E50;
+  border-bottom: 5px solid #2D3E50;
+}
+/* /header */
+/* main */
+/* crescita */
+.container_together{
+  text-align: center;
+  padding: 20px;
+  color: #2D3E50;
+}
+
+.container_together h2{
+  font-size: 30px;
+}
+
+.container_together p{
+  width: 70%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.crm{
+  color: #2D3E50;
+  box-shadow: 1px 1px 3px #2D3E50;
+}
+
+div.crm .container:nth-child(1){
+  width: 20%;
+}
+
+.crm div a.btn{
+  text-align: center;
+  margin-left: 15px;
+}
+
+div.crm > div:nth-child(2){
+  width: 70%;
+}
+
+div.crm .container ul li{
+  padding: 20px 0;
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+div.crm::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.crm > div:nth-child(2) h3{
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.crm > div:nth-child(2) p{
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+.crm > div:nth-child(2) h4{
+  text-transform: uppercase;
+  width: 25%;
+  height: 10px;
+}
+
+.crm > div:nth-child(2) hr{
+  width: 80%;
+}
+
+.crm > div:nth-child(2) ul li img{
+  margin: 0 10px;
 }
