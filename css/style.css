@@ -142,7 +142,7 @@ p{
   height: 700px;
   background-position: 100% 80%;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: contain;
   position: relative;
   background-color: #FFF2EE;
 }
@@ -355,4 +355,61 @@ div.seconda_riga > div:nth-child(3) > img, div.seconda_riga > div:nth-child(4) >
 .img_start img{
   width: 50%;
   float: right;
+}
+/* /start */
+/* /main */
+/* footer */
+.link_footer{
+  width: 25%;
+}
+
+#site_footer ul li{
+  list-style: none;
+}
+
+.link_footer ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+div.link_footer:nth-child(4) > ul > li:nth-child(6){
+  margin-bottom: 15px;
+}
+
+a#support{
+  background-color: lightgrey;
+  color: #2D3E50!important;
+  font-weight: 400!important;
+}
+
+.link_footer ul li a i{
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.languages{
+  text-align: center;
+}
+
+.languages ul li{
+  list-style: none;
+  text-transform: capitalize;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  display: inline-block;
+}
+
+.copiright{
+  color: white;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.copiright div.float_left{
+  font-weight: 500;
 }
