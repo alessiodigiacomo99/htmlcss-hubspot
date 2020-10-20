@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>HubSpot</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -11,9 +11,9 @@
 
     <header id="site_header">
 
-      <div class="container_nav_top clearfix">
+      <nav class="clearfix" id="container_nav_top">
 
-        <nav class="navbar_top wh">
+        <div class="wh" id="navbar_top">
           <div class="float_left">
               <ul>
                 <li>
@@ -32,7 +32,7 @@
             <ul>
               <li>
                 <a href="#">
-                  <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png" alt="">
+                  <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png" alt="lente d'ingrandimento">
                 </a>
               </li>
               <li>
@@ -45,17 +45,16 @@
               </li>
             </ul>
           </div>
-        </nav>
+        </div>
 
-      </div>
+      </nav>
       <!-- /navbar_top -->
 
-      <div class="container_nav_bottom clearfix">
+      <nav class="clearfix bg_white" id="navbar_bottom">
 
-        <nav class="navbar_bottom wh">
-
+        <div class="wh">
           <div class="float_left">
-            <img src="img/logo (1).svg" alt="">
+            <img src="img/logo(1).svg" alt="logo HubSpot">
           </div>
 
           <div class="float_right">
@@ -64,9 +63,6 @@
                 <a href="#" class="link">
                   Software <i class="fas fa-angle-down"></i>
                 </a>
-              </li>
-              <li>
-                <a href="#" class="link">Pricing</a>
               </li>
               <li>
                 <a href="#" class="link">
@@ -86,17 +82,23 @@
             </ul>
           </div>
 
-        </nav>
-        <!-- /navbar_bottom -->
-      </div>
-      <!-- /.container_nav_bottom -->
+        </div>
+
+      </nav>
+      <!-- /navbar_bottom -->
 
       <div class="container">
-        <div class="hero_text">
+        <div id="hero_text">
           <h1>There's a better way to grow.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos atque nulla facilis nam saepe, labore earum, eligendi in excepturi id aut, exercitationem provident magni voluptatem illo inventore molestiae iure. Voluptatem.</p>
-          <a href="#" class="btn p_20 brd_rd">GetHubspotFree</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos atque nulla facilis nam saepe, labore earum, eligendi in excepturi id aut, exercitationem provident magni voluptatem illo inventore molestiae iure. Voluptatem.
+          </p>
+          <a href="#" class="btn p_20 brd_rd">
+            GetHubspotFree
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
         </div>
         <!-- /hero_text -->
       </div>
@@ -109,29 +111,32 @@
 
     <main id="main_content">
 
-      <section class="bg_azzurrino crescita">
+      <section class="bg_azzurrino" id="crescita">
 
-        <div class="container_together p_20 wh">
-          <img src="img/hubspot-screen-1.png" alt="">
+        <div class="p_20 wh" id="container_together">
+          <img src="img/hubspot-screen-1.png" alt="insieme di quadrati di diversi colori">
           <h2>Powerful alone better toghter</h2>
-          <p class="p_20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque amet adipisci doloremque expedita voluptates consequatur maiores ea debitis optio vel.</p>
+          <p class="p_20">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque amet adipisci doloremque expedita voluptates consequatur maiores ea debitis optio vel.
+          </p>
         </div>
+        <!-- /container toghter -->
 
-        <div class="bg_white crm wh brd_rd p_20 clearfix">
+        <div class="bg_white wh brd_rd p_20 clearfix" id="crm">
 
           <div class="container float_left p_40">
-            <img src="img/hubspot-screen-2.png" alt="">
+            <img src="img/hubspot-screen-2.png" alt="libro aperto">
             <div><a href="#" class="btn brd_rd p_20"> Learn More</a></div>
           </div>
 
-          <div class="container float_left p_40">
+          <div class="container float_left p_40" id="free_hubspot">
             <h3>free hubspot cRM</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque libero consectetur ipsa recusandae earum culpa adipisci commodi, distinctio fuga. Ullam.</p>
             <h4>Popolar Feature</h4>
             <hr class="float_right">
             <ul>
               <li class="float_left">
-                <img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Contact Insight
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Contact Insight
               </li>
               <li class="float_left">
                 <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Deals
@@ -143,153 +148,187 @@
           </div>
 
         </div>
+        <!-- /crm -->
 
         <div class="wh clearfix">
 
           <div class="card bg_white float_left">
-            <img src="img/hubspot-screen-3.png" alt="">
+            <img src="img/hubspot-screen-3.png" alt="foglio di carta con bollicine colorate">
             <h3>Marketing Hub</h3>
-            <p class="p_40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!</p>
-            <hr>
+            <p class="p_40">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!
+            </p>
+            <hr class="wh">
             <h4>popolar feature</h4>
             <ul>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics</li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics
+              </li>
             </ul>
-            <a href="#" class="btn brd_rd">Learn More</a>
+            <a href="#" class="btn brd_rd">
+              Learn More
+            </a>
           </div>
           <!-- /card marketing hub -->
 
           <div class="card bg_white float_left">
-            <img src="img/hubspot-screen-4.png" alt="">
+            <img src="img/hubspot-screen-4.png" alt="penna lettere e valigetta">
             <h3>sales hub</h3>
-            <p class="p_40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!</p>
-            <hr>
+            <p class="p_40">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!
+            </p>
+            <hr class="wh">
             <h4>popolar feature</h4>
             <ul>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics</li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics
+              </li>
             </ul>
-            <a href="#" class="btn brd_rd">Learn More</a>
+            <a href="#" class="btn brd_rd">
+              Learn More
+            </a>
           </div>
           <!-- /card sales hub -->
 
           <div class="card bg_white float_left">
-            <img src="img/hubspot-screen-5.png" alt="">
+            <img src="img/hubspot-screen-5.png" alt="tavolo con cuffie e icone di messaggi">
             <h3>service Hub</h3>
-            <p class="p_40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!</p>
-            <hr>
+            <p class="p_40">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non. Placeat iste voluptatibus minima aperiam veniam possimus, ducimus doloribus velit!
+            </p>
+            <hr class="wh">
             <h4>popolar feature</h4>
             <ul>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation</li>
-              <li><img class="Orange_Checkmark"src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics</li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Lead Generation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Marketing Automation
+              </li>
+              <li>
+                <img class="Orange_Checkmark" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg" alt="">Analitics
+              </li>
             </ul>
-            <a href="#" class="btn brd_rd">Learn More</a>
+            <a href="#" class="btn brd_rd">
+              Learn More
+            </a>
           </div>
           <!-- /card service hub -->
 
         </div>
+        <!-- /cards -->
 
       </section>
       <!-- /.crescita -->
 
-      <section class="community bg_verdeacqua">
+      <section id="community">
 
-        <div class="title_community p_40 wh">
-          <h2>Learn and grow width award-winning support and thriving community behind you</h2>
-          <p class="p_20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="p_40 wh" id="title_community">
+          <h2>
+            Learn and grow width award-winning support and thriving community behind you
+          </h2>
+          <p class="p_20">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
         </div>
+        <!-- /title community -->
 
-        <div class="content_community">
-
-          <div class="prima_riga">
-            <div class="numeri_community brd_wh">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="pi">
-              <h2>150+</h2>
-              <div class="info">HubSpot user groups</div>
-            </div>
-
-            <div class="numeri_community brd_wh">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg" alt="">
-              <h2>4.5M</h2>
-              <div class="info">Monthly visit</div>
-            </div>
-
-            <div class="numeri_community brd_wh">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg" alt="pi">
-              <h2>150K+</h2>
-              <div class="info">certified professionals</div>
-            </div>
-
-            <div class="numeri_community">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_inbound.svg" alt="">
-              <h2>21k+</h2>
-              <div class="info">registered attendees</div>
-            </div>
-
+        <div id="prima_row">
+          <div class="numeri_community brd_wh">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg" alt="stretta di mano">
+            <h2>150+</h2>
+            <div>HubSpot user groups</div>
           </div>
 
-          <hr class="bg_white wh">
+          <div class="numeri_community brd_wh">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg" alt="hubspot blogs">
+          <h2>4.5M</h2>
+          <div>Monthly visit</div>
+          </div>
 
-          <div class="seconda_riga">
-            <div class="numeri_community brd_wh">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg" alt="">
-              <h2>2.6M</h2>
-              <div class="info">social follower</div>
-            </div>
+          <div class="numeri_community brd_wh">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg" alt="HubSpot academy">
+          <h2>150K+</h2>
+          <div>certified professionals</div>
+          </div>
 
-
-            <div class="numeri_community brd_wh">
-              <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg" alt="">
-              <h2>6+</h2>
-              <div class="info">languages</div>
-            </div>
-
-
-            <div class="numeri_community brd_wh">
-              <img src="https://cdn2.hubspot.net/hubfs/53/HubSpot-App-Marketplace-White.png" alt="">
-              <h2>5k+</h2>
-              <div class="info"> profiles and counting</div>
-            </div>
-
-            <div class="numeri_community">
-              <img src="https://cdn2.hubspot.net/hubfs/53/Lists.svg" alt="">
-              <h2>200+</h2>
-              <div class="info">integration</div>
-            </div>
+          <div class="numeri_community">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_inbound.svg" alt="inbound">
+          <h2>21k+</h2>
+          <div>registered attendees</div>
           </div>
 
         </div>
+        <!-- /prima_row -->
+
+        <hr class="bg_white wh">
+
+        <div id="seconda_row">
+          <div class="numeri_community brd_wh">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg" alt="messaggio">
+          <h2>2.6M</h2>
+          <div>social follower</div>
+          </div>
+
+          <div class="numeri_community brd_wh">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg" alt="globo">
+          <h2>6+</h2>
+          <div>languages</div>
+          </div>
+
+          <div class="numeri_community brd_wh">
+            <img src="https://cdn2.hubspot.net/hubfs/53/HubSpot-App-Marketplace-White.png" alt="app marketplace">
+          <h2>5k+</h2>
+          <div> profiles and counting</div>
+          </div>
+
+          <div class="numeri_community">
+            <img src="https://cdn2.hubspot.net/hubfs/53/Lists.svg" alt="icone di persone">
+          <h2>200+</h2>
+          <div>integration</div>
+          </div>
+        </div>
+        <!-- /seconda_row -->
+
 
       </section>
       <!-- /community -->
 
-      <section class="sponsors wh p_40 clearfix">
+      <section class="wh p_40 clearfix">
 
-        <div class="dati float_left">
+        <div class="float_left" id="dati">
           <h2>64,500</h2>
           <p>
             Customer in over <strong>100</strong> countries growing their buisness with HubSpot
           </p>
         </div>
 
-        <div class="container_sponsor float_left">
+        <div class="float_left">
 
           <div class="sponsor_list">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png" alt="">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png" alt="atlassian logo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png" alt="Classpasslogo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png" alt="subaru logo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png" alt="vmware logo">
           </div>
 
           <div class="sponsor_list">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png" alt="">
-            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg" alt="">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png" alt="wistia logo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png" alt="doordash logo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png" alt="crowd logo">
+            <img src="https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg" alt="survey monkey logo">
           </div>
 
         </div>
@@ -297,27 +336,29 @@
       </section>
       <!-- /.sponsors -->
 
-      <section class="start wh clearfix">
-        <div class="start_today float_left">
+      <section class="wh clearfix" id="start">
+        <div class="float_left" id="start_today">
           <h2>Start growing with HubSpot today</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maxime in quae dolore nobis natus doloremque repudiandae eveniet dolores totam!</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maxime in quae dolore nobis natus doloremque repudiandae eveniet dolores totam!
+          </p>
           <a href="#" class="btn brd_rd p_20">Get HubSpot Free</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
         </div>
 
-        <div class="img_start float_right">
-          <img src="img/woman.webp" alt="">
+        <div class="float_right" id="img_start">
+          <img class="float_right" src="img/woman.webp" alt="img donna">
         </div>
       </section>
       <!-- /.start -->
 
     </main>
 
-    <footer id="site_footer" class="bg_blue">
+    <footer id="site_footer">
 
-      <!-- container_link_footer -->
-
-      <div class="container_link_footer wh clearfix">
+      <div class="wh clearfix">
         <div class="link_footer p_40 float_left">
           <ul>
             <li>
@@ -444,12 +485,12 @@
             </li>
           </ul>
         </div>
+        <!-- /social -->
+
       </div>
-      <!-- /social -->
       <!-- /container_link_footer -->
 
-      <!-- languages -->
-      <div class="languages wh">
+      <div class="wh" id="languages">
         <ul>
           <li class="p_20">english</li>
           <li class="p_20">deutsch</li>
@@ -462,19 +503,21 @@
       </div>
       <!-- /languages -->
 
-      <div class="clearfix wh copiright">
+      <div class="clearfix wh" id="copiright">
         <div class="float_left">
-          <img src="img/logo (1).svg" alt="">
+          <img src="img/logo(1).svg" alt="">
           <div>Copiright
             <i class="far fa-copyright"></i> 2019 HubSpot, Inc.
           </div>
         </div>
 
-        <div class="stuff float_right">
-          <span>legal stuff</span>
-          <span> privacy policy</span>
+        <div class="float_right">
+          <span class="p_10">legal stuff</span>
+          <span class="p_10"> privacy policy</span>
         </div>
       </div>
+      <!-- /copyright -->
+
     </footer>
 
   </body>

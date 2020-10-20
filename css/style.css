@@ -14,22 +14,18 @@ p{
   font-weight: 500;
   color: #2D3E50;
 }
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 /* utility class */
-
-.bg_orange{
-  background-color: #FF7A59;
-}
-
-.bg_verdeacqua{
-  background-color: #01B1B1;
-}
-
 .bg_blue{
-  background-color: #2D3E50;
-}
 
-.bg_azzurrino{
-  background-color: #F5F8FA;
 }
 
 .brd_rd{
@@ -50,11 +46,6 @@ p{
 
 .bg_white{
   background-color: white;
-}
-
-.link{
-  color: #2D3E50;
-  text-transform: capitalize;
 }
 
 .float_left{
@@ -94,6 +85,11 @@ p{
 .brd_wh{
   border-right: 1px solid white;
 }
+
+a.btn:hover{
+  background-color: rgba(255, 122, 89, 0.5);
+  transition: 0.3s linear;
+}
 /* /utility class */
  /* header */
 
@@ -101,22 +97,17 @@ p{
   position: relative;
 }
 
-#site_header .container_nav_top{
-  background-color: #eaf7ffbd;
+#container_nav_top{
+  background-color: #eaf7ff;
 }
 
-#site_header .navbar_top div.float_left{
+#navbar_top div.float_left{
   margin-top: 10px;
 }
 
 #site_header ul li{
-  list-style: none;
   display: inline-block;
   margin: 5px;
-}
-
-#site_header ul li a{
-  text-decoration: none;
 }
 
 #login{
@@ -124,20 +115,30 @@ p{
   border: 1px solid #FF7A59;
 }
 
-.navbar_top ul li a img{
+#navbar_top ul li a img{
   width: 50%;
   vertical-align: middle;
 }
 
-.navbar_bottom div.float_left img{
+#navbar_bottom{
+  width: 100%;
+  margin-top: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 1px 1px 3px #2D3E50;
+}
+
+#navbar_bottom div.float_left img{
   padding: 15px 0;
 }
 
-.navbar_bottom ul li {
+#navbar_bottom ul li {
   padding: 20px 10px;
 }
 
 #site_header div.container{
+  padding-top: 50px;
   background-image: url('../img/jumbotron.png');
   height: 700px;
   background-position: 100% 80%;
@@ -145,20 +146,26 @@ p{
   background-size: contain;
   position: relative;
   background-color: #FFF2EE;
+  z-index: 0;
 }
 
-.container .hero_text{
+.link{
+  color: #2D3E50;
+  text-transform: capitalize;
+}
+
+.container #hero_text{
   width: 40%;
   margin-left: 10%;
   color: #2D3E50;
 }
 
-.hero_text h1{
+#hero_text h1{
   font-size: 70px;
   padding-top: 10%;
 }
 
-.hero_text p {
+#hero_text p {
   margin: 20px 0;
 }
 
@@ -168,7 +175,7 @@ div.hero_text > p:nth-child(4){
 
 .bg_verdino{
   background-color: #8EE3D9;
-  height: 100px;
+  height: 90px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -178,65 +185,68 @@ div.hero_text > p:nth-child(4){
 /* /header */
 /* main */
 /* crescita */
-.container_together{
+#crescita{
+  background-color: #F5F8FA;
+}
+
+#container_together{
   text-align: center;
   color: #2D3E50;
 }
 
-.container_together h2{
+#container_together h3{
   font-size: 30px;
 }
 
-.container_together p{
+#container_together p{
   width: 70%;
   margin: auto;
 }
 
-.crm, .card{
+#crm, .card{
   color: #2D3E50;
   box-shadow: 1px 1px 3px #2D3E50;
 }
 
-div.crm .container:nth-child(1){
+#crm .container:nth-child(1){
   width: 20%;
 }
 
-.crm div a.btn{
+#crm div a.btn{
   text-align: center;
   margin-left: 15px;
 }
 
-div.crm > div:nth-child(2){
+#crm > div:nth-child(2){
   width: 70%;
 }
 
-div.crm .container ul li{
+#crm .container ul li{
   padding: 20px 0;
-  list-style: none;
   display: inline-block;
   margin: 5px;
 }
 
-.crm > div:nth-child(2) h3{
+#free_hubspot h3{
   font-size: 25px;
   text-transform: capitalize;
 }
 
-.crm > div:nth-child(2) p{
+#free_hubspot p{
   padding: 20px 0;
 }
 
-.crm > div:nth-child(2) h4{
+#free_hubspot h4{
   text-transform: uppercase;
   width: 25%;
   height: 10px;
 }
 
-.crm > div:nth-child(2) hr{
+#free_hubspot hr{
   width: 80%;
 }
 
-.crm > div:nth-child(2) ul li img{
+#free_hubspot ul li img{
   margin: 0 10px;
 }
 
@@ -247,7 +257,6 @@ div.crm .container ul li{
 }
 
 .card ul li{
-  list-style: none;
   margin: 0 10% ;
   text-align: left;
 }
@@ -255,11 +264,6 @@ div.crm .container ul li{
 .card h3{
   font-size: 25px;
   text-transform: capitalize;
-}
-
-.card hr {
-  width: 80%;
-  margin: auto;
 }
 
 .card h4{
@@ -273,22 +277,23 @@ div.crm .container ul li{
   padding: 20px 40px;
 }
 
-.crescita > div:nth-child(3) > div:nth-child(2){
+#crescita > div:nth-child(3) > div:nth-child(2){
   margin: 40px 12.5%;
 }
 /* /crescita */
 /* community */
 
-.community{
+#community{
   color: white;
   text-align: center;
+  background-color: #01B1B1;
 }
 
-.title_community h2{
+#title_community h2{
   font-size: 40px;
 }
 
-.title_community p{
+#title_community p{
   color: white;
 }
 
@@ -305,23 +310,24 @@ div.crm .container ul li{
   text-shadow: 1px 1px white;
 }
 
-div.seconda_riga > div:nth-child(3) > img, div.seconda_riga > div:nth-child(4) > img{
+#seconda_row > div:nth-child(3) > img,
+#seconda_row > div:nth-child(4) > img{
   height: 33px;
 }
 
-.seconda_riga{
+#seconda_row{
   padding-bottom: 100px;
 }
 /* /community */
 /* sponsors */
 
-.sponsors .dati h2{
+#dati h2{
   font-size: 50px;
   color: #2D3E50;
   padding-bottom: 20px;
 }
 
-.sponsors .dati{
+#dati{
   width: 25%;
   text-align: center;
   margin: 40px;
@@ -339,51 +345,61 @@ div.seconda_riga > div:nth-child(3) > img, div.seconda_riga > div:nth-child(4) >
 }
 /* /sponsors */
 /* start */
-.start .start_today{
+#start_today{
   width: 40%;
 }
 
-.start h2{
+#start h2{
   font-size: 50px;
   color: #2D3E50;
 }
 
-.start p{
+#start p{
   padding: 40px 0;
 }
 
-.img_start img{
+#img_start img{
   width: 50%;
-  float: right;
 }
 /* /start */
 /* /main */
 /* footer */
+#site_footer{
+  background-color: #2D3E50;
+  position: relative;
+  z-index: 2;
+}
+
 .link_footer{
   width: 25%;
 }
 
-#site_footer ul li{
-  list-style: none;
-}
-
 .link_footer ul li a {
   color: white;
-  text-decoration: none;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 200;
   line-height: 50px;
 }
 
-div.link_footer:nth-child(4) > ul > li:nth-child(6){
+.link_footer ul li a:hover{
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.link_footer:nth-child(4) > ul > li:nth-child(6){
   margin-bottom: 15px;
 }
 
-a#support{
+#site_footer > div:nth-child(1) > div:nth-child(4) > ul > li:nth-child(7){
+  width: 300px;
+}
+
+#support{
   background-color: lightgrey;
   color: #2D3E50!important;
   font-weight: 400!important;
+  width: 300px;
 }
 
 .link_footer ul li a i{
@@ -391,12 +407,11 @@ a#support{
   margin-top: 10px;
 }
 
-.languages{
+#languages{
   text-align: center;
 }
 
-.languages ul li{
-  list-style: none;
+#languages ul li{
   text-transform: capitalize;
   color: white;
   font-size: 18px;
@@ -404,12 +419,12 @@ a#support{
   display: inline-block;
 }
 
-.copiright{
+#copiright{
   color: white;
   padding: 20px 0;
   text-transform: capitalize;
 }
 
-.copiright div.float_left{
+#copiright div.float_left{
   font-weight: 500;
 }
